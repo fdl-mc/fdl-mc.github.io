@@ -27,6 +27,10 @@
     <head>
         <title>Freedomland</title>
         <link
+            href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
+            rel="stylesheet"
+        />
+        <link
             rel="icon"
             href="https://i.imgur.com/0cizvf2.png"
             type="image/x-icon"
@@ -62,18 +66,11 @@
     </head>
     <body>
         <div
-            class="
-                container-fluid
-                vh-100
-                vw-100
-                align-items-center
-                justify-content-center
-                d-flex
-            "
-            style="max-width: 1000px"
+            class="container-fluid vh-100 vw-100 d-flex"
+            style="max-width: 800px"
         >
-            <div class="row p-5 align-items-center my-auto">
-                <div class="mb-sm-0 mb-5 align-items-center col">
+            <div class="row p-sm-5 p-3 align-items-center my-auto">
+                <div class="mb-sm-0 mb-5 col">
                     <img
                         src="https://i.imgur.com/BCa6aDa.png"
                         alt="пикча)"
@@ -84,13 +81,13 @@
                             img-animation
                         "
                         style="
-                            max-width: 280px;
+                            max-width: 250px;
                             filter: drop-shadow(0 0 16px rgba(0, 0, 0, 0.25));
                         "
                     />
                 </div>
                 <div class="col text-sm-start text-center mx-auto">
-                    <h2 class="mb-2">
+                    <h2 class="mb-0">
                         <img
                             src="https://i.imgur.com/vS4Z1pZ.png"
                             alt="FDL"
@@ -100,24 +97,35 @@
                         />
                         <strong>FreedomLand</strong>
                     </h2>
-                    <div class="col-lg-10" style="font-size: 20px">
-                        <p class="mb-2">
-                            Самый технологически продвинутый приватный сервер
-                            Minecraft.
+                    <div class="col-lg-10 mb-3 mt-2" style="font-size: 20px">
+                        <p class="mb-0">
+                            Технологически продвинутый приватный Minecraft
+                            сервер.
                         </p>
                     </div>
-                    <div>
-                        <a
-                            class="btn btn-primary m-1"
-                            href="https://vk.com/fdlmc?w=app5708398_-196960013"
-                            ><i class="fa fa-plus me-1"></i>Подать заявку</a
-                        >
-                        <a
-                            class="btn btn-outline-secondary m-1"
-                            href="https://discord.gg/xTXjwaX"
-                        >
-                            <i class="fab fa-discord me-1"></i>Discord-сервер</a
-                        >
+                    <div class="row">
+                        <div class="col">
+                            <a
+                                class="btn btn-primary w-100"
+                                href="https://vk.com/fdlmc?w=app5708398_-196960013"
+                                ><i class="fa fa-plus me-1"></i>Подать заявку</a
+                            >
+                        </div>
+                        <div class="col d-flex my-auto justify-content-around">
+                            <a href="/vk"
+                                ><i class="fab fa-vk fa-lg text-secondary"></i
+                            ></a>
+                            <a href="/discord"
+                                ><i
+                                    class="fab fa-discord fa-lg text-secondary"
+                                ></i
+                            ></a>
+                            <a href="/github"
+                                ><i
+                                    class="fab fa-github fa-lg text-secondary"
+                                ></i
+                            ></a>
+                        </div>
                     </div>
                 </div>
             </div>
